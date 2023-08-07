@@ -10,7 +10,7 @@ public class CameraMovement : MonoBehaviour
   private void Start() {
     cameraPosition = new Vector3(0, 8, -10);
   }
-  // Update is called once per frame
+
   void Update() {
       transform.position = player.transform.position + cameraPosition;
     }
